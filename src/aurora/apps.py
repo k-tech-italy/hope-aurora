@@ -5,5 +5,5 @@ class Config(AppConfig):
     name = "aurora"
     default = True
 
-    def ready(self):
-        import aurora.checks  # noqa
+    # def ready(self):
+    #     import aurora.checks  # noqa
